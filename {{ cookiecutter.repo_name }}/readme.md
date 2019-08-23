@@ -4,4 +4,4 @@
 
 ## Installation
 
-run `conda create -f environment.yml & pip install -e .` from the project folder to install the required packages and the project code.
+run `conda create -f environment.yml` to create a new conda environment

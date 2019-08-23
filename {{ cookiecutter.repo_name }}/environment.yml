@@ -1,4 +1,4 @@
-name: rabobank-training
+name: {{ cookiecutter.project_repo }}
 channels:
   - defaults
 dependencies:
