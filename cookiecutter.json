@@ -3,5 +3,5 @@
     "author_name": "Your name (or your organization/company/team)",
 
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
-    "project_slug": "{{ repo_name.replace(' ', '_') }}"
+    "project_slug": "{{ cookiecutter.repo_name.replace(' ', '_') }}"
 }
