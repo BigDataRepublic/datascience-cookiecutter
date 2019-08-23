@@ -1,4 +1,4 @@
-name: {{ cookiecutter.project_repo }}
+name: {{ cookiecutter.repo_name }}
 channels:
   - defaults
 dependencies:
