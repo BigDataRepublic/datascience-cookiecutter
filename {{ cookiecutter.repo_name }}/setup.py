@@ -4,8 +4,8 @@ with open('requirements.txt', 'r') as f:
     install_requires = f.read().splitlines()
 
 setup(
-    name="rabobank_training",
+    name="{{ cookiecutter.project_slug }}",
     version="0.0.0",
-    packages=find_packages(include=['rabobank_training',]),
+    packages=find_packages(include=['{{ cookiecutter.project_slug }}',]),
     install_requires=install_requires,
 )

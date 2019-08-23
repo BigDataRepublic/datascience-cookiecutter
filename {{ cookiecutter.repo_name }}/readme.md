@@ -1,6 +1,7 @@
-# Tell me something about this project
+# {{ cookiecutter.project_name }}
 
-Who is doing it, why, for whom?
+{{ cookiecutter.author_name }}
 
-How do I run the code?
-Etc
+## Installation
+
+run `conda create -f environment.yml & pip install -e .` from the project folder to install the required packages and the project code.
