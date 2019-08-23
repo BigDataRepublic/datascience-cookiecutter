@@ -1,7 +1,6 @@
 {
     "project_name": "Project name",
     "author_name": "Your name (or your organization/company/team)",
-    "description": "A short description of the project.",
 
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
     "project_slug": "{{ repo_name.replace(' ', '_') }}"
